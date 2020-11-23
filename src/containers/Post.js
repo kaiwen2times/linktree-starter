@@ -3,7 +3,7 @@ import { useRouteData } from 'react-static'
 //
 import { Link } from 'components/Router'
 
-export default function Post() {
+const Post = () => {
   const { post } = useRouteData()
   return (
     <div>
@@ -14,3 +14,4 @@ export default function Post() {
     </div>
   )
 }
+export default Post;
