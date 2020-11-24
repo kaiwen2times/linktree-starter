@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { TITLE } from 'constant/constant'
+import Profile from 'components/Profile'
+import Linktree from 'components/Linktree'
 
 class Home extends Component {
   constructor(props) {
@@ -13,7 +15,12 @@ class Home extends Component {
   };
 
   render() {
-    return(null);
+    return(
+      <body>
+        <Profile />
+        <Linktree />
+      </body>
+    );
   };
 }
 export default Home;
