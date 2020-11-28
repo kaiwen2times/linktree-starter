@@ -1,7 +1,26 @@
-import React from 'react'
+import React, { Component } from 'react';
+import { TITLE } from 'constant/constant'
+import Profile from 'components/Profile'
+import Linktree from 'components/Linktree'
 
-export default () => (
-  <div style={{ textAlign: 'center' }}>
-    <h1>Welcome to React-Static</h1>
-  </div>
-)
+class Home extends Component {
+  constructor(props) {
+    super(props);
+  };
+
+  componentDidMount() {
+    if (document) {
+      document.title = document.title || TITLE;
+    }
+  };
+
+  render() {
+    return(
+      <body>
+        <Profile />
+        <Linktree />
+      </body>
+    );
+  };
+}
+export default Home;
