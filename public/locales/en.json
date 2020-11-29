@@ -1,0 +1,23 @@
+{
+  "title": "Hello World",
+  "name": "Kaiwen Zheng",
+  "loading": "Loading...",
+  "links": [
+    {
+      "link_name": "Connect on LinkedIn",
+      "link_location": ""
+    },
+    {
+      "link_name": "Check out my Github",
+      "link_location": "https://github.com/kaiwen2times"
+    },
+    {
+      "link_name": "See my resume",
+      "link_location": "https://github.com/kaiwen2times"
+    },
+    {
+      "link_name": "View my YouTube channel",
+      "link_location": "https://github.com/kaiwen2times"
+    }
+  ]
+}

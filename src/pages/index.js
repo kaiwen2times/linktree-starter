@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { TITLE } from 'constant/constant'
-import Profile from 'components/Profile'
-import Linktree from 'components/Linktree'
+import { TITLE } from 'constant/constant';
+import Profile from 'components/Profile';
+import Linktree from 'components/Linktree';
 
 class Home extends Component {
   constructor(props) {
@@ -16,10 +16,10 @@ class Home extends Component {
 
   render() {
     return(
-      <body>
+      <div>
         <Profile />
         <Linktree />
-      </body>
+      </div>
     );
   };
 }

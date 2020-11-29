@@ -1,20 +1,16 @@
-import React from 'react'
-import { Root, Routes } from 'react-static'
-import { Router } from 'components/Router'
-import './app.css'
+import React from 'react';
+import { Router } from 'components/Router';
+import Home from 'pages/index';
+import NotFound from 'pages/404';
+import './app.css';
 
 const App = () =>{
   return (
-    <Root>  
-      <div className="content">
-        <React.Suspense fallback={<em>Loading...</em>}>
-        <Router>
-          <Routes path="*" />
-        </Router>
-        </React.Suspense>
-      </div>
-    </Root>
+    <Router>
+      <Home path="/" />
+      <NotFound default />
+    </Router>
   )
 }
 
-export default App
+export default App;
