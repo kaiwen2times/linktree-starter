@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { withTranslation } from 'react-i18next';
 import { TITLE } from 'constant/constant';
 import Profile from 'components/Profile';
 import Linktree from 'components/Linktree';
@@ -9,18 +10,19 @@ class Home extends Component {
   };
 
   componentDidMount() {
+    const { t } = this.props;
     if (document) {
-      document.title = document.title || TITLE;
+      document.title = document.title || t('title');
     }
   };
 
   render() {
     return(
-      <div>
+      <div className="content">
         <Profile />
         <Linktree />
       </div>
     );
   };
 }
-export default Home;
+export default withTranslation()(Home);

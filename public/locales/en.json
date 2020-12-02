@@ -4,19 +4,19 @@
   "loading": "Loading...",
   "links": [
     {
-      "link_name": "Connect on LinkedIn",
+      "link_description": "Connect on LinkedIn",
       "link_location": ""
     },
     {
-      "link_name": "Check out my Github",
+      "link_description": "Check out my Github",
       "link_location": "https://github.com/kaiwen2times"
     },
     {
-      "link_name": "See my resume",
+      "link_description": "See my resume",
       "link_location": "https://github.com/kaiwen2times"
     },
     {
-      "link_name": "View my YouTube channel",
+      "link_description": "View my YouTube channel",
       "link_location": "https://github.com/kaiwen2times"
     }
   ]
