@@ -1,15 +1,17 @@
 import React from 'react';
-import { Router } from 'components/Router';
+import { BrowserRouter, Switch, Route } from 'components/Router';
 import Home from 'pages/index';
 import NotFound from 'pages/404';
 import './app.css';
 
 const App = () =>{
   return (
-    <Router>
-      <Home path="/" />
-      <NotFound default />
-    </Router>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" component={Home} exact />
+        <Route component={NotFound} />
+      </Switch>
+    </BrowserRouter>
   )
 }
 

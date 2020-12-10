@@ -1,1 +1,1 @@
-export { Link, Router } from '@reach/router';
+export { BrowserRouter, Route, Switch } from 'react-router-dom';
