@@ -5,7 +5,7 @@
   "links": [
     {
       "link_description": "Connect on LinkedIn",
-      "link_location": ""
+      "link_location": "https://www.linkedin.com/in/kaiwen-zheng-733127b2"
     },
     {
       "link_description": "Check out my Github",
@@ -13,11 +13,11 @@
     },
     {
       "link_description": "See my resume",
-      "link_location": "https://github.com/kaiwen2times"
+      "link_location": "/resume.html"
     },
     {
       "link_description": "View my YouTube channel",
-      "link_location": "https://github.com/kaiwen2times"
+      "link_location": "https://www.youtube.com/channel/UCu-QwyKeyMaTeeXoQPfpZgg"
     }
   ]
 }

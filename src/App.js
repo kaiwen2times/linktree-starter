@@ -9,6 +9,7 @@ const App = () =>{
     <BrowserRouter>
       <Switch>
         <Route path="/" component={Home} exact />
+        <Route path="/resume.html" onEnter={() => window.location.reload()} />
         <Route component={NotFound} />
       </Switch>
     </BrowserRouter>
